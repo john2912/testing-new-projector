@@ -4,6 +4,15 @@ description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
+
+
+
+--- type:VideoExercise lang:python xp:50 skills:2 key:dfdcd58d92
+## New Test Video
+
+*** =projector_key
+d56e2187f5dffff1aa4b0ce5f28ce81b
+
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:1bda1de847
 ## A really bad movie
 
