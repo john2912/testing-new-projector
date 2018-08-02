@@ -13,12 +13,19 @@ title: Instructor
 *** =script
 
 
---- type:TwoColumns key:88c4096d7b
+--- type:FullSlide key:88c4096d7b
 ## Test 2 columns
 
 *** =part1
-First Column
-*** =part2
-Second Column
+```{r}
+ggJitter <- ggplot(bus, aes(x = MilesOneWay, y = Bus)) +
+  geom_jitter(width = 0, height = 0.05)
+``` {{1}}
+
+```{r}
+  print(ggJitter)
+``` {{1}}
+
+
 *** =script
 
