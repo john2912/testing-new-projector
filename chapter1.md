@@ -43,6 +43,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 Have a look at the plot. Do you see a trend in the dots?
 
 `@pre_exercise_code`
+
 ```{python}
 # The pre exercise code runs code to initialize the user's workspace.
 # You can use it to load packages, initialize datasets and draw a plot in the viewer
@@ -55,7 +56,10 @@ movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introdu
 plt.scatter(movies.runtime, movies.rating)
 plt.show()
 ```
+
+
 `@sct`
+
 ```{python}
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
@@ -63,6 +67,8 @@ msg_bad = "That is not correct!"
 msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
+
+
 ---
 
 ## Plot the movies yourself
@@ -94,13 +100,17 @@ A dataset of movies, `movies`, is available in the workspace.
 - You'll always have to type in `plt.show()` to show the plot you created.
 
 `@pre_exercise_code`
+
 ```{python}
 import pandas as pd
 movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
 
 import numpy as np
 ```
+
+
 `@sample_code`
+
 ```{python}
 # Get integer values for genres
 _, ints = np.unique(movies.genre, return_inverse = True)
@@ -113,7 +123,10 @@ _, ints = np.unique(movies.genre, return_inverse = True)
 
 # Show the plot
 ```
+
+
 `@solution`
+
 ```{python}
 # Get integer values for genres
 _, ints = np.unique(movies.genre, return_inverse = True)
@@ -127,7 +140,10 @@ plt.scatter(movies.runtime, movies.rating, c=ints)
 # Show the plot
 plt.show()
 ```
+
+
 `@sct`
+
 ```{python}
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
@@ -148,3 +164,5 @@ test_function("matplotlib.pyplot.show")
 
 success_msg("Great work!")
 ```
+
+
