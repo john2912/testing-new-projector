@@ -24,6 +24,33 @@ title: Instructor
 
 
 ---
+## Code blocks test
+
+```yaml
+type: "FullSlide"
+key: "c408ee90d7"
+```
+
+`@part1`
+* asdgsdf {{1}}
+
+* sdfgbdfgbfgd {{2}}
+```
+asdsdfg
+sdfgsdf
+``` {{3}}
+
+```
+asdfgsdf
+dfgsdf
+```{{4}}
+
+
+`@script`
+
+
+
+---
 ## Test 2 columns
 
 ```yaml
