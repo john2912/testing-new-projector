@@ -24,33 +24,6 @@ title: Instructor
 
 
 ---
-## Code blocks test
-
-```yaml
-type: "FullSlide"
-key: "c408ee90d7"
-```
-
-`@part1`
-* asdgsdf {{1}}
-
-* sdfgbdfgbfgd {{2}}
-```
-asdsdfg
-sdfgsdf
-``` {{3}}
-
-```
-asdfgsdf
-dfgsdf
-```{{4}}
-
-
-`@script`
-
-
-
----
 ## Test 2 columns
 
 ```yaml
@@ -67,6 +40,22 @@ ggJitter <- ggplot(bus, aes(x = MilesOneWay, y = Bus)) +
 ```{r}
   print(ggJitter)
 ``` {{1}}
+
+
+`@script`
+
+
+
+---
+## Test html
+
+```yaml
+type: "FullSlide"
+key: "88c48c5c82"
+```
+
+`@part1`
+<img src="">
 
 
 `@script`
