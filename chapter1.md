@@ -8,30 +8,29 @@ attachments:
 ## New Test Video
 
 ```yaml
-type: VideoExercise 
+type: VideoExercise
+key: dfdcd58d92
 lang: python
-xp: 50 
+xp: 50
 skills: 2
-key: dfdcd58d92   
 ```
 
 `@projector_key`
 d56e2187f5dffff1aa4b0ce5f28ce81b
+
 ---
 
 ## A really bad movie
 
 ```yaml
-type: MultipleChoiceExercise 
+type: MultipleChoiceExercise
+key: 1bda1de847
 lang: python
-xp: 50 
+xp: 50
 skills: 1
-key: 1bda1de847   
 ```
 
-
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
-
 
 `@instructions`
 - Long movies, clearly
@@ -43,7 +42,6 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 Have a look at the plot. Do you see a trend in the dots?
 
 `@pre_exercise_code`
-
 ```{python}
 # The pre exercise code runs code to initialize the user's workspace.
 # You can use it to load packages, initialize datasets and draw a plot in the viewer
@@ -57,9 +55,7 @@ plt.scatter(movies.runtime, movies.rating)
 plt.show()
 ```
 
-
 `@sct`
-
 ```{python}
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
@@ -68,24 +64,21 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 
-
 ---
 
 ## Plot the movies yourself
 
 ```yaml
-type: NormalExercise 
+type: NormalExercise
+key: 005fa4afda
 lang: python
-xp: 100 
+xp: 100
 skills: 1
-key: 005fa4afda   
 ```
-
 
 Do you remember the plot of the last exercise? Let's make an even cooler plot!
 
 A dataset of movies, `movies`, is available in the workspace.
-
 
 `@instructions`
 - The first function, `np.unique()`, uses the `unique()` function of the `numpy` package to get integer values for the movie genres. You don't have to change this code, just have a look!
@@ -100,7 +93,6 @@ A dataset of movies, `movies`, is available in the workspace.
 - You'll always have to type in `plt.show()` to show the plot you created.
 
 `@pre_exercise_code`
-
 ```{python}
 import pandas as pd
 movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
@@ -108,9 +100,7 @@ movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introdu
 import numpy as np
 ```
 
-
 `@sample_code`
-
 ```{python}
 # Get integer values for genres
 _, ints = np.unique(movies.genre, return_inverse = True)
@@ -124,9 +114,7 @@ _, ints = np.unique(movies.genre, return_inverse = True)
 # Show the plot
 ```
 
-
 `@solution`
-
 ```{python}
 # Get integer values for genres
 _, ints = np.unique(movies.genre, return_inverse = True)
@@ -141,9 +129,7 @@ plt.scatter(movies.runtime, movies.rating, c=ints)
 plt.show()
 ```
 
-
 `@sct`
-
 ```{python}
 # SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
 
@@ -164,5 +150,3 @@ test_function("matplotlib.pyplot.show")
 
 success_msg("Great work!")
 ```
-
-
