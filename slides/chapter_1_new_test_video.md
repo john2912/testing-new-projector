@@ -24,38 +24,19 @@ title: Instructor
 
 
 ---
-## Test 2 columns
+## Test Slide
 
 ```yaml
 type: "FullSlide"
-key: "88c4096d7b"
+key: "964fcaedcb"
 ```
 
 `@part1`
-```{r}
-ggJitter <- ggplot(bus, aes(x = MilesOneWay, y = Bus)) +
-  geom_jitter(width = 0, height = 0.05)
-``` {{1}}
-
-```{r}
-  print(ggJitter)
-``` {{1}}
-
-
-`@script`
-
-
-
----
-## Test html
-
-```yaml
-type: "FullSlide"
-key: "88c48c5c82"
-```
-
-`@part1`
-<img src="">
+- sdfgsdfgs
+- sdfgsdfhg
+  - dsfgdfsg
+  - sdfgsdfgdaf
+- sfdgsdfgsdfg
 
 
 `@script`
