@@ -16,28 +16,7 @@ key: "8ca3021ecf"
 `@lower_third`
 
 name: Louis Bailey 
-title: Instructor
-
-
-`@script`
-
-
-
----
-## Test Slide
-
-```yaml
-type: "FullSlide"
-key: "964fcaedcb"
-```
-
-`@part1`
-- sdfgsdfgs
-- sdfgsdfhg
-  - dsfgdfsg
-  - sdfgsdfgdaf
-  - asdfasd
-- sfdgsdfgsdfg
+title: Instructr
 
 
 `@script`

@@ -5,7 +5,7 @@ attachments:
     slides_link: 'https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf'
 ---
 
-## New Test Video
+## Example projector course
 
 ```yaml
 type: VideoExercise
@@ -32,7 +32,7 @@ skills: 1
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
-`@instructions`
+`@possible_answers`
 - Long movies, clearly
 - Short movies, clearly
 - Long movies, but the correlation seems weak
